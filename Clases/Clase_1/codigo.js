@@ -1,10 +1,8 @@
 // Comentario de una sola linea
 
-/*
-
-Comentario de bloque
-
-*/
+/* Comentario
+de
+bloque */
 
 // Declaracion de una variable
 
@@ -63,8 +61,8 @@ console.log("Los jugadores en cancha son: " + jugadoresEnCancha);
 
 // Salida de datos por alert
 
-//alert("El resultado de la suma es: " + suma);
-//alert("Los jugadores en cancha son: " + jugadoresEnCancha);
+/* alert("El resultado de la suma es: " + suma);
+alert("Los jugadores en cancha son: " + jugadoresEnCancha); */
 
 // Salida de datos por prompt - Toma todo en formato de string
 
