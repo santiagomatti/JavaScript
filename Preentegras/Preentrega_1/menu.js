@@ -7,7 +7,7 @@ let listaProductos = '';
 
 let promptIntroduccion = 'Te damos la bienvenida a nuestra tienda, por favor selecciona una opción para continuar.\n 1- Continuar\n 2- Salir';
 
-let opcion = parseInt(promptIntroduccion);
+let opcion = parseInt(prompt(promptIntroduccion));
 
 while (opcion !== 1 && opcion !== 2) {
     alert('Por favor selecciona una opción válida.');
@@ -145,6 +145,9 @@ function menuAromatizadores() {
             alert('Has seleccionado el aromatizador de canela.');
             menuPrincipal();
             break;
+        case 4:
+            menuPrincipal();
+            break;
         default:
             alert('Por favor selecciona una opción válida.');
     }
@@ -176,6 +179,9 @@ function menuDifusores() {
             total = total + 14000;
             listaProductos = listaProductos + 'Difusor de canela $14.000\n';
             alert('Has seleccionado el difusor de canela.');
+            menuPrincipal();
+            break;
+        case 4:
             menuPrincipal();
             break;
         default:
